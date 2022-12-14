@@ -1,0 +1,587 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .swiper-button-next:before,
+    .swiper-button-prev:before
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+    .swiper-button-prev:before
+    {
+        left: 12px;
+    }
+
+    .swiper-button-next:before
+    {
+        left: -18px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        margin-bottom: 40px;
+        padding: 24px 0;
+    }
+
+
+    header .cont + .cont
+    {
+        margin-top: 24px;
+    }
+
+
+    header .logo.mini
+    {
+        width: 400px;
+        margin-bottom: 24px;
+    }
+
+
+    header .col_right
+    {
+        width: auto;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 24px;
+    }
+
+    header .menu.mini .menu_item > a
+    {
+        font-size: var(--font_size);
+    }
+
+
+    header .sub_menu.level2
+    {
+        margin-top: 12px;
+    }
+
+    header .sub_menu.level2 .row
+    {
+        width: 498px;
+    }
+
+    header .sub_menu.level2 .row > * + *
+    {
+        margin-left: 24px;
+    }
+
+
+    header .sub_menu.level2 a
+    {
+        font-size: 14px;
+    }
+
+
+    header .sub_menu.level3
+    {
+        margin-top: 20px;
+    }
+
+
+    header .sub_menu.level3 .type,
+    header .sub_menu.level3 .status
+    {
+        font-size: 14px;
+
+        width: 100%;
+    }
+
+    header .sub_menu.level3 .status
+    {
+        margin-top: 20px;
+    }
+
+
+    header .sub_menu.level3 .vals
+    {
+        margin-top: 4px;
+    }
+
+
+    header .sub_menu.level3 .all_link
+    {
+        font-size: 14px;
+
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    header .langs,
+    header .langs.mini
+    {
+        font-size: var(--font_size);
+
+        margin-left: 24px;
+    }
+
+
+    header .search
+    {
+        margin-left: 24px;
+    }
+
+    header .search .btn
+    {
+        font-size: var(--font_size);
+
+        top: 0;
+    }
+
+
+
+    /*-------------------
+        Firts section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 8vw;
+    }
+
+
+    .first_section .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .first_section .item2
+    {
+        right: 24px;
+    }
+
+    .first_section .item3
+    {
+        top: 51.414vw;
+        left: 51.414vw;
+    }
+
+
+    .first_section .item .thumb
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*--------------------
+        Responsibility
+    --------------------*/
+    .responsibility .about_us
+    {
+        right: 24px;
+    }
+
+
+    .responsibility .block_head
+    {
+        width: 43.308vw;
+    }
+
+    .responsibility .block_head .title
+    {
+        font-size: 2.342vw;
+        line-height: 2.855vw;
+    }
+
+
+    .responsibility .links
+    {
+        width: 43.308vw;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .list > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+    .articles .article .swiper
+    {
+        width: 25vw;
+        margin: 0 0 -20px;
+        padding-bottom: 20px;
+    }
+
+
+    .articles .article .thumb
+    {
+        width: 25vw;
+        padding-bottom: 25vw;
+    }
+
+
+    .articles .article .thumb + *,
+    .articles .article .swiper + *
+    {
+        width: calc(75vw - 80px);
+        min-height: 25vw;
+        margin-left: auto;
+    }
+
+
+    .articles .article .date
+    {
+        font-size: 13px;
+
+        margin-bottom: 4px;
+    }
+
+
+    .articles .article .name,
+    .articles .article .desc
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .articles .article .spoler_btn
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-----------------
+        Person info
+    -----------------*/
+    .person_info .history
+    {
+        font-size: 14px;
+    }
+
+    .person_info .history br
+    {
+        display: none;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .data
+    {
+        width: 100%;
+        padding-top: 0;
+    }
+
+
+    .team .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .team .person .post,
+    .team .person .name
+    {
+        font-size: 15px;
+    }
+
+
+    .team .row > *.top1,
+    .team .row > *.top2,
+    .team .row > *.right
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .projects .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .projects .project .info
+    {
+        font-size: 15px;
+        line-height: 122%;
+
+        padding: 16px;
+    }
+
+    .projects .project .year
+    {
+        font-size: 14px;
+        line-height: 122%;
+
+        margin-top: 16px;
+    }
+
+
+    .projects .project .info,
+    .projects .project:hover .info
+    {
+        display: none;
+
+        opacity: 0;
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info .project_image
+    {
+        width: 100%;
+        margin-bottom: 48px;
+
+        order: 2;
+    }
+
+
+    .project_info .data
+    {
+        color: var(--text_color);
+        font-size: 16.5px;
+        font-weight: 600;
+        line-height: 20px;
+
+        display: block;
+
+        width: 100%;
+        height: auto;
+        margin-bottom: 24px;
+        padding: 0;
+
+        text-align: left;
+
+        background: none;
+    }
+
+    .project_info .data .year
+    {
+        display: none;
+    }
+
+
+    .project_info .description,
+    .project_info .features
+    {
+        width: 100%;
+        margin-bottom: 48px;
+
+        order: 3;
+    }
+
+    .project_info .features > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .project_info .sliders
+    {
+        order: 4;
+    }
+
+    .project_info .sliders .head
+    {
+        width: 53.308vw;
+    }
+
+    .project_info .sliders .swiper
+    {
+        width: 70.342vw;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .data
+    {
+        width: 100%;
+    }
+
+
+    .about_info .information
+    {
+        width: 100%;
+        margin-top: 48px;
+        padding-top: 25vw;
+    }
+
+
+    .about_info .information .image
+    {
+        width: calc(50vw - 58px);
+        height: calc(50vw - 58px);
+    }
+
+
+    .about_info .information .title
+    {
+        font-size: 18px;
+
+        width: calc(50vw - 58px);
+    }
+
+
+    .about_info .about_projects
+    {
+        top: 0;
+        right: 0;
+
+        width: calc(50vw - 58px);
+    }
+
+    .about_info .about_projects .thumb
+    {
+        margin-bottom: 24px;
+    }
+
+    .about_info .about_projects .desc
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*-----------------
+        Exhibitions
+    -----------------*/
+    .exhibitions
+    {
+        margin-bottom: 16vw;
+    }
+
+
+    .exhibitions .head .types .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .exhibitions .head .types .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .exhibitions .slider
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*------------
+        Awards
+    ------------*/
+    .awards .block_title
+    {
+        font-size: 17px;
+    }
+
+
+    .awards .item
+    {
+        font-size: 15px;
+    }
+
+    .awards .item .year
+    {
+        width: 80px;
+    }
+
+
+
+    /*-----------------
+        Search info
+    -----------------*/
+    .search_info form
+    {
+        padding: 0;
+    }
+
+
+    .search_info form .input
+    {
+        width: calc(100% - 48px);
+        height: 28px;
+    }
+
+
+    .search_info form .submit_btn
+    {
+        font-size: 20px;
+
+        width: auto;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .contacts
+    {
+        width: 52.308vw;
+    }
+
+
+    footer .col_right
+    {
+        display: none;
+    }
+}
