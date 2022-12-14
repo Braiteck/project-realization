@@ -549,6 +549,12 @@
     /*-----------------
         Search info
     -----------------*/
+    .search_info
+    {
+        margin-bottom: 64px;
+    }
+
+
     .search_info form
     {
         padding: 0;
@@ -557,7 +563,7 @@
 
     .search_info form .input
     {
-        width: calc(100% - 48px);
+        width: calc(100% - 28px);
         height: 28px;
     }
 
@@ -567,6 +573,29 @@
         font-size: 20px;
 
         width: auto;
+    }
+
+
+    .search_info form.small
+    {
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+
+
+    .search_info .projects
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .search_info .block_title
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        margin-bottom: 28px;
     }
 
 

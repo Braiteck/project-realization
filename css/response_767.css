@@ -814,6 +814,33 @@
 
 
 
+    /*-----------------
+        Search info
+    -----------------*/
+    .search_info
+    {
+        margin-bottom: 78px;
+    }
+
+
+    .search_info form.small
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .search_info .block_title
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        margin-bottom: 24px;
+
+        text-align: right;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

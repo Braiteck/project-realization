@@ -262,6 +262,19 @@
 
 
 
+    /*-----------------
+        Search info
+    -----------------*/
+    .search_info .block_title
+    {
+        font-size: 14px;
+        line-height: 17px;
+
+        margin-bottom: 19px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

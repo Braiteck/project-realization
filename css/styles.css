@@ -1432,8 +1432,6 @@ header .mob_menu_btn.active span + span
 
     width: 100%;
     margin-bottom: 1.464vw;
-
-    order: 3;
 }
 
 .articles .article .thumb ~ .desc,
@@ -1444,6 +1442,8 @@ header .mob_menu_btn.active span + span
 
     margin-top: 32px;
     margin-bottom: 0;
+
+    order: 3;
 }
 
 .articles .article .desc > * + *,
@@ -2514,7 +2514,13 @@ header .mob_menu_btn.active span + span
 -----------------*/
 .search_info
 {
+    margin-bottom: 5.929vw;
     padding-top: 1.041vw;
+}
+
+.search_info.no_pad
+{
+    padding: 0;
 }
 
 
@@ -2558,9 +2564,10 @@ header .mob_menu_btn.active span + span
 
 .search_info form .input
 {
-    color: var(--text_color);
+    color: #000;
     font-family: var(--font_family);
     font-size: var(--font_size);
+    font-weight: 600;
 
     display: block;
 
@@ -2584,6 +2591,36 @@ header .mob_menu_btn.active span + span
     margin-left: auto;
 
     text-align: center;
+}
+
+
+.search_info form.small
+{
+    width: 58.857vw;
+    margin-bottom: 3.294vw;
+    padding: 0;
+}
+
+
+
+.search_info .projects
+{
+    margin-bottom: 4.758vw;
+}
+
+.search_info .articles
+{
+    margin-bottom: 0;
+}
+
+
+.search_info .block_title
+{
+    font-size: 1.317vw;
+    font-weight: 600;
+    line-height: 1.610vw;
+
+    margin-bottom: 3.294vw;
 }
 
 
