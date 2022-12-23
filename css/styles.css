@@ -1198,16 +1198,31 @@ header .mob_menu_btn.active span + span
     width: 100%;
 }
 
-.projects .project .info > * + *
+
+.projects .project .name
 {
-    margin-top: 1.464vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: -webkit-box;
+    overflow: hidden;
+
+    padding: 0 1.464vw;
+
+    transform: translate(-50%, -50%);
+
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
+
 
 .projects .project .year
 {
     font-size: .95vw;
     line-height: 123%;
 }
+
 
 .projects .project:hover .info
 {
